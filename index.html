@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA DE IMC</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="/img/icon.png">
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora de IMC</h1>
+    </header>
+    <main id="conteudo">
+        <section class="row">
+            <div class="col-12">
+                <h3>Calculadora de IMC</h3>
+            </div>
+        </section>
+
+        <section class="row">
+
+            <div class="col-12">
+                <form>
+                    <label> Digite seu Peso(KG):</label>
+                    <input type="number" id="Peso" value=""><br>
+                    <label> Digite sua Altura(cm):</label>
+                    <input type="number" id="Altura" value="">
+                </form>
+                <button onclick="Calcular()">Calcular</button>
+                <textarea name="" id="text_area" rows="8"></textarea>
+            </div>
+        </section>
+    </main>
+    <footer class="fixed-bottom">
+        <p>&copy; 2023 WEB Design HZN. Todos os direitos reservados</p>
+    </footer>
+</body>
+<script src="/js/script.js"></script>
+
+</html>
