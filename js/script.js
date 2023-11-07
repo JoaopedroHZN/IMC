@@ -27,3 +27,24 @@ function Calcular() {
     }
     document.getElementById("text_area").innerText=text;
 }
+
+document.getElementById("btnMulher").addEventListener("click", function () {
+    document.getElementById("header").style.backgroundColor = "blueviolet";
+    document.getElementById("btnCalcular").style.backgroundColor = "blueviolet";
+    document.getElementById("rodape").style.backgroundColor = "blueviolet";
+    document.getElementById("img").src = "img/mulher.png";
+    document.getElementById("msg").innerHTML = "Jamais se subestime. Você é forte e será capaz de lutar e conquistar o seu espaço.";
+}, false);
+
+document.getElementById("btnHomem").addEventListener("click", function () {
+    document.getElementById("header").style.backgroundColor = "blue";
+    document.getElementById("btnCalcular").style.backgroundColor = "blue";
+    document.getElementById("rodape").style.backgroundColor = "blue";
+    document.getElementById("img").src = "img/homem.png";
+    document.getElementById("msg").innerHTML = "Há grandes homens que fazem com que todos se sintam pequenos. Mas o verdadeiro grande homem é aquele que faz com que todos se sintam grandes.";
+}, false);
+
+
+
+
+

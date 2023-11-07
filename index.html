@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <h1>Calculadora de IMC</h1>
     </header>
     <main id="conteudo">
@@ -22,10 +22,9 @@
             <div class="col-12">
                 <h3>Calculadora de IMC</h3>
             </div>
+            <img id="img" src="img/mulher.png" style="padding-left: 30%;">
+
         </section>
-
-        <section class="row">
-
             <div class="col-12">
                 <form>
                     <label> Digite seu Peso(KG):</label>
@@ -33,12 +32,28 @@
                     <label> Digite sua Altura(cm):</label>
                     <input type="number" id="Altura" value="">
                 </form>
-                <button onclick="Calcular()">Calcular</button>
+                <button id="btnCalcular" onclick="Calcular()">Calcular</button>
+                <button id="btnMulher" type="button" style="background-color: blueviolet;">Mulher</button>
+                <button id="btnHomem" type="button" style="background-color: blue;">Homem</button>
                 <textarea name="" id="text_area" rows="8"></textarea>
+                
+                
             </div>
         </section>
     </main>
-    <footer class="fixed-bottom">
+    <!--<section id="img" class="row">
+        <div class="col-4">
+        </div>       
+        <div class="col-4">
+            
+        </div> 
+        <div class="col-4">
+        </div>    
+    </section>-->
+
+    <h5 id="msg"></h5>
+
+    <footer id="rodape" class="fixed-bottom">
         <p>&copy; 2023 WEB Design HZN. Todos os direitos reservados</p>
     </footer>
 </body>
